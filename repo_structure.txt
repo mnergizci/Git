@@ -87,3 +87,8 @@ your_project/
     -Add the script file to $PYTHONPATH, soure ~/.bashrc
 
 #Then enjoy with your code.py whereever you would like to run in the terminal 
+
+
+### You can use the flake8 which is powerful tool for checking the style and quality of the python code. 
+flake project_file/
+
