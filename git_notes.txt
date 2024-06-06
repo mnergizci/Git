@@ -1,4 +1,7 @@
 ##Hello I just to get over the git/github in terminal/VScode to store my project professionally in github in order to reach both remote and local terminal.
+
+##This .txt file summarize the what I learn git/github on Youtube. You can refer the video https://www.youtube.com/watch?v=tRZGeaHPoaw&t=536s
+
 ## First thing in a terminal please define configuration:
 1. git config --global user.name="[mnergiz]"
 2. git config --global user.mail="[mailadress@.com]"
@@ -58,6 +61,39 @@ In git we have three  environment:
 
 17. git switch main #go to main to call the branch
 17. git merge -m 'merge main with $branchIfeelinlove' $branchIfellinlove
+
+### afterward you can get rid of the old branch you have already merged the main to make it structure the easier.
+18. git branch -d $branchIwanttobreakup
+
+
+
+###What happend a conflict between main and branch? Actually the git inform you about the conflict and you can choose the which is the best in the current situation. That is really amazing aspect to work in different version of your dataset and work with other colliegues in together.
+19. git switch -c $brachnew
+
+
+
+
+#####So Let's discuss about github as well.
+
+When you create a repo in Github, probably you see a screen give you a recipe how to push a existing repo to github.
+
+1. git remote add origin $htpps:link_of_repo_in_github
+2. git branch -M maintainer
+3. git push -u origin main
+
+##You already familiear with the code above.
+4. git push --all # it helps you push your all branch to github.
+
+### So as you know you can edit the file in the github directly.
+### One of the best thing in the github you can use the issue section to put some error, debug and task. People also can visit there to add some question. This is really good to keep your notes in history and mind.
+
+
+
+ ### After step 19. You played your files in github and take some pull request from other people. So the files is updated in the github and the files in local is old version.
+ ### You can use the git fetch amd git merge to keep the update your local according to remote repository!
+20. git fetch
+21. git merge
+22. git pull ## you can use the git pull directly as well without runnig two seperate command!
 
 
 

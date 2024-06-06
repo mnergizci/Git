@@ -1,0 +1,9 @@
+##Hello this .txt file includes the some information about how I can make a structure for my python study to put in github.com
+#Generally, I am creating  module_lib.py and main_code.py to run my python codes in same home directory and it getting anoying when
+#I jump another study or create new thing. It is exactly what a beginner/intermediate coder do this.
+
+##So I decided to spend my a couple of day to find out some useful tips how I can create the a professional study folder for my code to put in
+##github repo and share people, also not confused when I visit the codes after couple of time. This
+
+##The notes generally taken from youtube, googling and AI (ChatGPT): I have putted the relavant link when I refer the document source.
+
