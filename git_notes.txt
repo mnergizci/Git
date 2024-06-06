@@ -39,6 +39,9 @@ In git we have three  environment:
 
 ##You can use the restore function to remove the file in the stage environment. Stage to working.
 9. git restore --staged index.htm 
+##to unstaged the data you change you can use git reset
+9.1. git reset
+9.2. git reset HEAD~1 or ID of in (git log)
 
 ## If you would like to skip the stage env and directly commit the your working files you can use -a flag as below:
 10. git commit -a -m 'without staging!'
@@ -103,11 +106,10 @@ When you create a repo in Github, probably you see a screen give you a recipe ho
 23. git diff $branchyouarein
 
 
-##to unstaged the data you change you can use git reset
-24. git reset
-25. git reset HEAD~1
+
 
 
 
 ###SSH key a pain in jasmin terminal, so I decided to move my data in local then make revision in local then pull from jasmin. I guess it is best way so far?
 
+###git remove here with git reset
