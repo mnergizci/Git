@@ -67,7 +67,27 @@ In git we have three  environment:
 ###What happend a conflict between main and branch? Actually the git inform you about the conflict and you can choose the which is the best in the current situation. That is really amazing aspect to work in different version of your dataset and work with other colliegues in together.
 19. git switch -c $brachnew
 
+
+
+
 #####So Let's discuss about github as well.
+
+When you create a repo in Github, probably you see a screen give you a recipe how to push a existing repo to github.
+
+1. git remote add origin $htpps:link_of_repo_in_github
+2. git branch -M maintainer
+3. git push -u origin main
+
+##You already familiear with the code above.
+4. git push --all # it helps you push your all branch to github.
+
+### So as you know you can edit the file in the github directly.
+### One of the best thing in the github you can use the issue section to put some error, debug and task. People also can visit there to add some question. This is really good to keep your notes in history and mind.
+
+
+
+ ### After step 19. You played your files in github and take some pull request from other people. So the files is updated in the github and the files in local is old version.
+ ### You can use the git fetch amd git merge to 
 
 
 
