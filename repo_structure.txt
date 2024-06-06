@@ -7,3 +7,57 @@
 
 ##The notes generally taken from youtube, googling and AI (ChatGPT): I have putted the relavant link when I refer the document source.
 
+##Let's start!:
+
+your_project/
+│
+├── bin/                # Executable scripts
+│   └── your_script.py
+│
+├── lib/           # Your main library code
+│   ├── __init__.py
+│   └── your_module.py
+│
+├── data/               # Your datasets
+│   └── dataset.csv
+│
+├── tests/              # Test scripts
+│   ├── __init__.py
+│   └── test_your_module.py
+│
+├── docs/               # Documentation
+│   └── index.md
+│
+├── examples/           # Example scripts
+│   └── example_usage.py
+│
+├── .gitignore          # Git ignore file
+├── LICENSE             # License file
+├── README.md           # Project description
+├── requirements.txt    # Dependencies
+├── setup.py            # Installation script
+└── pyproject.toml      # Build system configuration (optional)
+
+
+1. 'bin/'
+    -Purpose: Contains the executable scripts that users can run.
+    -Example: Scripts that demonstrate how to use your library or perform specific tasks.
+
+2. 'lib/'
+    -Purpose: Contains the main library code.
+    -Example: The core functionality of the project.
+
+3. 'data/'
+    -Purpose: Stores datasets or any data files used by the project.
+
+4. 'tests/'
+    -Purpose: Contaions unit tests and other test script.
+
+5. 'docs'
+    -Purpose: Documentation for the project and its documentation
+
+6. 'examples'
+    -Purpose: Contains example scripts demonstrating how to use the library
+
+7. '.gitignore'
+    -Purpose: Specifies files and directories to be ignored by Git.
