@@ -1,4 +1,7 @@
 ##Hello I just to get over the git/github in terminal/VScode to store my project professionally in github in order to reach both remote and local terminal.
+
+##This .txt file summarize the what I learn git/github on Youtube. You can refer the video https://www.youtube.com/watch?v=tRZGeaHPoaw&t=536s
+
 ## First thing in a terminal please define configuration:
 1. git config --global user.name="[mnergiz]"
 2. git config --global user.mail="[mailadress@.com]"
