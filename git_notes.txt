@@ -54,6 +54,7 @@ In git we have three  environment:
 ####So far, We worked in the main branch. We can also create a new branch for our study. It is a good option if you work in a group study or improve a code which is already written someone. So you can play with the code individualy in another branch.
 
 14. git branch $newnameofbranch
+14.1 git checkout -b $newnameofbranch ##also can be used to create new branch
 15. git branch ##you can check the branchs
 16. git switch $branchname ##move branch you want switch
 
@@ -94,6 +95,10 @@ When you create a repo in Github, probably you see a screen give you a recipe ho
 20. git fetch
 21. git merge
 22. git pull ## you can use the git pull directly as well without runnig two seperate command!
+
+###to compare to brach you can you diff function to see the difference between two different branches
+23. git diff $branchyouarein
+
 
 
 
