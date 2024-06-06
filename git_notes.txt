@@ -1,3 +1,6 @@
+###Muhammet Nergizci, PhD researcher University of Leeds
+06/06/24
+
 ##Hello I just to get over the git/github in terminal/VScode to store my project professionally in github in order to reach both remote and local terminal.
 
 ##This .txt file summarize the what I learn git/github on Youtube. You can refer the video https://www.youtube.com/watch?v=tRZGeaHPoaw&t=536s
@@ -99,6 +102,10 @@ When you create a repo in Github, probably you see a screen give you a recipe ho
 ###to compare to brach you can you diff function to see the difference between two different branches
 23. git diff $branchyouarein
 
+
+##to unstaged the data you change you can use git reset
+24. git reset
+25. git reset HEAD~1
 
 
 

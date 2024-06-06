@@ -1,3 +1,6 @@
+###Muhammet Nergizci, PhD researcher University of Leeds
+06/06/24
+
 ##Hello this .txt file includes the some information about how I can make a structure for my python study to put in github.com
 #Generally, I am creating  module_lib.py and main_code.py to run my python codes in same home directory and it getting anoying when
 #I jump another study or create new thing. It is exactly what a beginner/intermediate coder do this.
