@@ -84,4 +84,6 @@ your_project/
         #!/usr/bin/env pythons
     -Make the script executable
         chmod +x path/to/python.py
-    -Add the script file to $PYTHONPATH
+    -Add the script file to $PYTHONPATH, soure ~/.bashrc
+
+#Then enjoy with your code.py whereever you would like to run in the terminal 
