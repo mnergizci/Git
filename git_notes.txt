@@ -1,3 +1,6 @@
+###Muhammet Nergizci, PhD researcher University of Leeds
+06/06/24
+
 ##Hello I just to get over the git/github in terminal/VScode to store my project professionally in github in order to reach both remote and local terminal.
 
 ##This .txt file summarize the what I learn git/github on Youtube. You can refer the video https://www.youtube.com/watch?v=tRZGeaHPoaw&t=536s
@@ -36,6 +39,9 @@ In git we have three  environment:
 
 ##You can use the restore function to remove the file in the stage environment. Stage to working.
 9. git restore --staged index.htm 
+##to unstaged the data you change you can use git reset
+9.1. git reset
+9.2. git reset HEAD~1 or ID of in (git log)
 
 ## If you would like to skip the stage env and directly commit the your working files you can use -a flag as below:
 10. git commit -a -m 'without staging!'
@@ -54,6 +60,7 @@ In git we have three  environment:
 ####So far, We worked in the main branch. We can also create a new branch for our study. It is a good option if you work in a group study or improve a code which is already written someone. So you can play with the code individualy in another branch.
 
 14. git branch $newnameofbranch
+14.1 git checkout -b $newnameofbranch ##also can be used to create new branch
 15. git branch ##you can check the branchs
 16. git switch $branchname ##move branch you want switch
 
@@ -95,7 +102,12 @@ When you create a repo in Github, probably you see a screen give you a recipe ho
 21. git merge
 22. git pull ## you can use the git pull directly as well without runnig two seperate command!
 
+###to compare to brach you can you diff function to see the difference between two different branches
+23. git diff $branchyouarein
 
 
 
 
+
+
+###SSH key a pain in jasmin terminal, so I decided to move my data in local then make revision in local then pull from jasmin. I guess it is best way so far?
