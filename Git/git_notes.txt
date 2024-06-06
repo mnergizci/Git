@@ -1,0 +1,8 @@
+##Hello I just to get over the git/github in terminal/VScode to store my project professionally in github in order to reach both remote and local terminal.
+## First thing in a terminal please define configuration:
+1. git config --global user.name="[mnergiz]"
+2. git config --global user.mail="[mailadress@.com]"
+
+##secondly you can also define the default branch name which is generally as called 'main'
+3. git config --global init.default branch main
+
