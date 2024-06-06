@@ -6,3 +6,15 @@
 ##secondly you can also define the default branch name which is generally as called 'main'
 3. git config --global init.default branch main
 
+##If you confused the you can use -h flag to see documentation, or git help config to open a webpage regarding the command which includes relative information.
+4. git config -g, git help config --global
+
+# Please initialize the repository by init! so It creates .git for necesarry repository file. 
+5. git init 
+
+##Then, you can check the status by using git status. This helps you to see the current commits to you. 
+6. git status
+
+## You can the track and untrack the files/folder using the add function. 
+7. git add $file_name , to remove git rm --cached $file_name
+
