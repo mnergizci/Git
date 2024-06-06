@@ -61,3 +61,16 @@ your_project/
 
 7. '.gitignore'
     -Purpose: Specifies files and directories to be ignored by Git.
+
+
+
+##There is a couple of way to defining your 'source_path' to includes directories like 'bin' and Python libraries in a terminal.
+    - This can be achieved by modifiying the PYTHONPATH environment variable. This ensures that Python can find and import modules
+    from these directories.
+        --->$ export PYTHONPATH =$PYTHONPATH:/path/to/your_project/bin:/path/to/your_project/your_lib
+    - To verify the that the `PYTHONPATH` has been set correctly, echo can be used in the terminal:
+        --->$ echo $PYTHONPATH
+
+## To make this change permanent (because it is so common to forget) you can add the command to shell's startup file.
+## The startup file in bash is ~/.bashrc or ~/.bash_profile, so please run the source ~/.bashrc afterwards.
+
