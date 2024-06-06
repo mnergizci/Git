@@ -59,6 +59,16 @@ In git we have three  environment:
 17. git switch main #go to main to call the branch
 17. git merge -m 'merge main with $branchIfeelinlove' $branchIfellinlove
 
+### afterward you can get rid of the old branch you have already merged the main to make it structure the easier.
+18. git branch -d $branchIwanttobreakup
+
+
+
+###What happend a conflict between main and branch? Actually the git inform you about the conflict and you can choose the which is the best in the current situation. That is really amazing aspect to work in different version of your dataset and work with other colliegues in together.
+19. git switch -c $brachnew
+
+#####So Let's discuss about github as well.
+
 
 
 
