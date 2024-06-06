@@ -111,5 +111,3 @@ When you create a repo in Github, probably you see a screen give you a recipe ho
 
 
 ###SSH key a pain in jasmin terminal, so I decided to move my data in local then make revision in local then pull from jasmin. I guess it is best way so far?
-
-###git remove here with git reset
