@@ -87,7 +87,10 @@ When you create a repo in Github, probably you see a screen give you a recipe ho
 
 
  ### After step 19. You played your files in github and take some pull request from other people. So the files is updated in the github and the files in local is old version.
- ### You can use the git fetch amd git merge to 
+ ### You can use the git fetch amd git merge to keep the update your local according to remote repository!
+20. git fetch
+21. git merge
+22. git pull ## you can use the git pull directly as well without runnig two seperate command!
 
 
 
