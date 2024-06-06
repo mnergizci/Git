@@ -15,6 +15,36 @@
 ##Then, you can check the status by using git status. This helps you to see the current commits to you. 
 6. git status
 
-## You can the track and untrack the files/folder using the add function. 
-7. git add $file_name , to remove git rm --cached $file_name
+## You can the track and untrack the files/folder using the add function. It goes the staging environment from working env
+7. git add $file_name, (put . to take all files) , to remove git rm --cached $file_name
+
+## You can create .gitignore to add unwanted files inside.
+
+## So, I add some files and played with it so I can commit it by commit function. This saves the change in your history box as your commit and you can travel in time to visit your previos code. That sounds like I use a time machine to travel in time!. It goes the commit environment from stage env
+8. git commit -m 'this is my first commit'
+
+
+###This is really good information for the git to get over again:
+In git we have three  environment:
+1. Working files ##Editing the files, folders 
+2. Staging  ## Holding a pen until to save it in history book (Great explanation from Kevin Stratvert https://www.youtube.com/watch?v=tRZGeaHPoaw&t=536s) 
+3. Commit ##The history book you taken note already so you can refer previous version of your current code to check out. Fascinating.
+###
+
+##You can use the restore function to remove the file in the stage environment. Stage to working.
+9. git restore --staged index.htm 
+
+## If you would like to skip the stage env and directly commit the your working files you can use -a flag as below:
+10. git commit -a -m 'without staging!'
+
+## One of the best thing in git, you can remove or move the file using same bash commands, rm and mv respectively. So If you would like to take back the data you remove you can use git restore again! So it is really amazing aspect if you make a fail!
+
+###When you would like to see the history of what you do so far, you can use log function. It will you give the all history you write
+11. git log 
+12. git log --oneline # this give you history with the history id. 
+
+##When you feel need to change the commit title in the history you can use the :
+13. git commit - 'here is new explanation regarding last commit' --ammend
+
+
 
