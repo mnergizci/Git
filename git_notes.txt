@@ -111,3 +111,27 @@ When you create a repo in Github, probably you see a screen give you a recipe ho
 
 
 ###SSH key a pain in jasmin terminal, so I decided to move my data in local then make revision in local then pull from jasmin. I guess it is best way so far?
+
+
+
+
+#### Git for Professionals : https://www.youtube.com/watch?v=Uszj_k0DGsg&list=LL&index=8&t=220s 
+## This tutorial a bit advance git information and tips to use as professionally. Kudos to freeCodeCamp.org and
+
+##The Perfect Commit:
+The idea for commit, it is not sense the commit all changed file in a one time, So you can categorise the files to commit.
+1. git add -p index.html
+    - This ask you part the index.html to add stage environment.
+2. Write a good commit message to memorize why/what you push?
+3. Check with git log? 
+
+
+##Branching Strategies:
+The path is like:
+    --Long-Running 
+        -Exist through the complete lifetime of the project
+        -often, they mirror stages in your dev life cycle
+        -common convention: no direct commits. 
+    --Short-lived Branches
+        - for new features, bug fixes, refactorings, experiments
+        - will be deleted after integration(merge/rebase)
