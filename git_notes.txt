@@ -111,3 +111,81 @@ When you create a repo in Github, probably you see a screen give you a recipe ho
 
 
 ###SSH key a pain in jasmin terminal, so I decided to move my data in local then make revision in local then pull from jasmin. I guess it is best way so far?
+
+
+
+
+#### Git for Professionals : https://www.youtube.com/watch?v=Uszj_k0DGsg&list=LL&index=8&t=220s 
+## This tutorial a bit advance git information and tips to use as professionally. Kudos to freeCodeCamp.org and
+
+##The Perfect Commit:
+The idea for commit, it is not sense the commit all changed file in a one time, So you can categorise the files to commit.
+1. git add -p index.html
+    - This ask you part the index.html to add stage environment.
+2. Write a good commit message to memorize why/what you push?
+3. Check with git log? 
+
+
+##Branching Strategies:
+The path is like:
+    --Long-Running (develop branch)
+        -like main-master branch
+        -Exist through the complete lifetime of the project
+        -often, they mirror stages in your dev life cycle
+        -common convention: no direct commits, generally merge 
+    --Short-lived Branches (feature branch)
+        - it is created for special purposeses. After committing and merged to main, this kind of branch generally deleted.
+        - for new features, bug fixes, refactorings, experiments
+        - will be deleted after integration(merge/rebase)
+
+Branching strategies:
+    -- Github Flow:
+        - very simple, very lean: only one long runnig branch + feature branches.
+
+    --GitFlow
+        - more sturcture, more rules
+        - long-running + develop
+        - shorth lived: features, releases, hotfixes
+
+
+Pull Request Strategies:
+    --There is not interesting thing which I don't know!
+
+
+Merge conflict:
+    --When you conflict in merge, the git inform you about where the conflict happen.
+        -git merge --abort (?)
+        -you can clean up the conflict area by selecting which version is better..
+        -you can use the git mergetool.
+
+    --Merge vs Rebase?
+        - Do not use the Rebase on commits that you've already pushed/shared on a remote repository
+        - Instead use it for cleaning up your local commit history before merging it into a shared team branch.
+
+        git merge:
+            - it is used to record the changes to the repo. When you maka changes to files and add them to the staging area. git commit saves those changes as a new commit in
+            repo history.
+
+        git rebase:
+            - it is used to integrate changes from one branch into another. Instead of creating a merge commit git rebase rewrites the commit history by applying commits from one
+            brach on top of another. This can create a cleaner, more linear project history. 
+
+            A---B---C feature-branch
+            \
+            D---E---F main
+
+            1. git checkout feature-branch
+
+            2. git rebase main
+
+            D---E---F---A'---B'---C' feature-branch
+
+            ###if there is a conflict during the rebasing, Git will stop and allow you to resolve them. After resolving the conflict, you need to continue the rebase process.
+
+            3. git add <resolved-file>
+
+            4. git rebase --continue
+
+            if you would like to abort the rebase and the retunr the original branch state:
+            5. git rebase --abort
+
