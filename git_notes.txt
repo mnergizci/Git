@@ -161,3 +161,31 @@ Merge conflict:
     --Merge vs Rebase?
         - Do not use the Rebase on commits that you've already pushed/shared on a remote repository
         - Instead use it for cleaning up your local commit history before merging it into a shared team branch.
+
+        git merge:
+            - it is used to record the changes to the repo. When you maka changes to files and add them to the staging area. git commit saves those changes as a new commit in
+            repo history.
+
+        git rebase:
+            - it is used to integrate changes from one branch into another. Instead of creating a merge commit git rebase rewrites the commit history by applying commits from one
+            brach on top of another. This can create a cleaner, more linear project history. 
+
+            A---B---C feature-branch
+            \
+            D---E---F main
+
+            1. git checkout feature-branch
+
+            2. git rebase main
+
+            D---E---F---A'---B'---C' feature-branch
+
+            ###if there is a conflict during the rebasing, Git will stop and allow you to resolve them. After resolving the conflict, you need to continue the rebase process.
+
+            3. git add <resolved-file>
+
+            4. git rebase --continue
+
+            if you would like to abort the rebase and the retunr the original branch state:
+            5. git rebase --abort
+
